@@ -1,0 +1,132 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ['index.html', 'src/**/*.{js,jsx,ts,tsx}'],
+  theme: {
+    fontFamily: {
+      'title': "Lexend, Nunito, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'",
+      'body': "Nunito, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'",
+      'mono': 'Inconsolata, monospace'
+    },
+    fontWeight: {
+      '100': '100',
+      '200': '200',
+      '300': '300',
+      '400': '400',
+      '500': '500',
+      '600': '600',
+      '700': '700',
+      '800': '800',
+      '900': '900'
+    },
+    colors: {
+      transparent: 'transparent',
+      white: 'white',
+      black: 'black',
+      primary: {
+        '1': '#ded8fd',
+        '2': '#beb1fb',
+        '3': '#9d8bf9',
+        '4': '#7c64f7',
+        '5': '#5a3bf5',
+        '6': '#3b16f3',
+        '7': '#290ac2',
+        '8': '#1d0788',
+        '9': '#10044e'
+      },
+      secondary: {
+        '1': '#ffdfd6',
+        '2': '#ffbfad',
+        '3': '#ff9f85',
+        '4': '#ff7f5c',
+        '5': '#ff5f33',
+        '6': '#ff3f0a',
+        '7': '#cc2c00',
+        '8': '#8f1f00',
+        '9': '#521200'
+      },
+      tertiary: {
+        '1': '#d8fde1',
+        '2': '#b1fbc4',
+        '3': '#8bf9a6',
+        '4': '#64f789',
+        '5': '#16f34e',
+        '6': '#0bd93e',
+        '7': '#09ae32',
+        '8': '#067422',
+        '9': '#033a11'
+      },
+      success: {
+        '1': '#d8fde1',
+        '2': '#b1fbc4',
+        '3': '#8bf9a6',
+        '4': '#64f789',
+        '5': '#16f34e',
+        '6': '#0bd93e',
+        '7': '#09ae32',
+        '8': '#067422',
+        '9': '#033a11'
+      },
+      info: {
+        '1': '#d7f3ff',
+        '2': '#ade7ff',
+        '3': '#85daff',
+        '4': '#5cceff',
+        '5': '#33c2ff',
+        '6': '#00abf5',
+        '7': '#008ab8',
+        '8': '#00648f',
+        '9': '#003952'
+      },
+      warning: {
+        '1': '#fef2d7',
+        '2': '#fde6af',
+        '3': '#fcd988',
+        '4': '#fac64c',
+        '5': '#f9b310',
+        '6': '#db9b06',
+        '7': '#b37f05',
+        '8': '#8b6304',
+        '9': '#503802'
+      },
+      danger: {
+        '1': '#f9dcdc',
+        '2': '#f4b9b9',
+        '3': '#ee9696',
+        '4': '#e56161',
+        '5': '#dc2626',
+        '6': '#c11f1f',
+        '7': '#9e1a1a',
+        '8': '#7b1414',
+        '9': '#460b0b'
+      },
+      neutral: {
+        '1': '#f6f5f4',
+        '1.5': '#edebe9',
+        '2': '#e3e0dd',
+        '2.5': '#dad6d2',
+        '3': '#d1ccc7',
+        '3.5': '#c8c2bc',
+        '4': '#bfb8b0',
+        '4.5': '#b6ada5',
+        '5': '#aca39a',
+        '5.5': '#a3998f',
+        '6': '#9a8f84',
+        '6.5': '#918578',
+        '7': '#877a6e',
+        '7.5': '#7b7065',
+        '8': '#70665c',
+        '8.5': '#655c53',
+        '9': '#5a5249',
+        '9.5': '#4f4840',
+        '10': '#433e37',
+        '10.5': '#38332e',
+        '11': '#2d2925',
+        '11.5': '#221f1c',
+        '12': '#161512',
+        '13': '#0b0a09'
+      },
+    },
+    extend: {},
+  },
+  plugins: [],
+}
